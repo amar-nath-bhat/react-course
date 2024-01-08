@@ -2,14 +2,18 @@ import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Hero from "./components/Hero/Hero.jsx";
+import Categories from "./components/Categories/Categories.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Navbar />
-      <Hero />
+      <div className="bg-dark">
+        <Navbar />
+        <Hero />
+        <Categories />
+      </div>
     </>
   );
 }

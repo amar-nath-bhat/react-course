@@ -1,12 +1,17 @@
 import React from "react";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-dark navbar-expand-lg bg-black border-bottom border-body fixed-top">
+      <nav className="navbar navbar-dark navbar-expand-lg bg-dark border-bottom border-body fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand mx-3" href="/">
-            <img src="../assets/reign_resized.png" alt="Reign" />
+            <img
+              src="src/assets/reign_resized.png"
+              alt="Reign"
+              id="reignlogo"
+            />
           </a>
 
           <button
@@ -22,7 +27,7 @@ const Navbar = () => {
           </button>
 
           <div
-            className="collapse navbar-collapse container-fluid bg-black"
+            className="collapse navbar-collapse container-fluid bg-dark"
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
@@ -54,8 +59,8 @@ const Navbar = () => {
                   </button>
                 </form>
               </li>
-              <li class="nav-item mx-md-5 mb-2 mb-md-0">
-                <a class="btn btn-outline-primary text-light" href="/">
+              <li className="nav-item mx-md-5 mb-2 mb-md-0">
+                <a className="btn btn-outline-primary text-light" href="/">
                   Login/Register
                 </a>
               </li>

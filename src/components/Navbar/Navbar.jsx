@@ -4,7 +4,7 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-dark navbar-expand-lg bg-dark border-bottom border-body fixed-top">
+      <nav className="navbar navbar-dark navbar-expand-lg bg-black border-bottom border-body fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand mx-3" href="/">
             <img
@@ -27,7 +27,7 @@ const Navbar = () => {
           </button>
 
           <div
-            className="collapse navbar-collapse container-fluid bg-dark"
+            className="collapse navbar-collapse container-fluid bg-black"
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">

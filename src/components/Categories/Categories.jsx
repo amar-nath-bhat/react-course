@@ -6,52 +6,52 @@ function Categories() {
     {
       heading: "Art & Design",
       courses: "30 Courses",
-      icons: "bi bi-palette-fill",
+      icons: "bi bi-palette-fill text-primary",
     },
     {
       heading: "Development",
       courses: "40 Courses",
-      icons: "bi bi-code",
+      icons: "bi bi-code text-primary",
     },
     {
       heading: "Communication",
       courses: "35 Courses",
-      icons: "bi bi-broadcast",
+      icons: "bi bi-broadcast text-primary",
     },
     {
       heading: "Science",
       courses: "32 Courses",
-      icons: "bi bi-mortarboard-fill",
+      icons: "bi bi-mortarboard-fill text-primary",
     },
     {
       heading: "Languages",
       courses: "23 Courses",
-      icons: "bi bi-translate",
+      icons: "bi bi-translate text-primary",
     },
     {
       heading: "Business",
       courses: "18 Courses",
-      icons: "bi bi-briefcase-fill",
+      icons: "bi bi-briefcase-fill text-primary",
     },
     {
       heading: "Network",
       courses: "12 Courses",
-      icons: "bi bi-wifi",
+      icons: "bi bi-wifi text-primary",
     },
     {
       heading: "Finance",
       courses: "18 Courses",
-      icons: "bi bi-cash-stack",
+      icons: "bi bi-cash-stack text-primary",
     },
     {
       heading: "Commerce",
       courses: "11 Courses",
-      icons: "bi bi-bag-check-fill",
+      icons: "bi bi-bag-check-fill text-primary",
     },
     {
       heading: "Marketing",
       courses: "15 Courses",
-      icons: "bi bi-graph-up-arrow",
+      icons: "bi bi-graph-up-arrow text-primary",
     },
   ];
   return (

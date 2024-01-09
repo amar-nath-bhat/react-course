@@ -4,7 +4,7 @@ function CategoryCard(props) {
   const icons = props.icons;
   return (
     <div
-      className="card m-3 p-5 bg-dark text-white border border-warning rounded-4 align-content-center text-center"
+      className="card m-3 p-5 bg-black text-white border border-warning rounded-4 align-content-center text-center"
       href="/"
     >
       <div className="card-body">

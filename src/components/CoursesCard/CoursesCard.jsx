@@ -6,7 +6,7 @@ function CoursesCard(props) {
       <div className="cardbtn btn btn-light position-absolute m-3">
         {props.tag}
       </div>
-      <img src={props.img} className="card-img-top rounded-top-4" />
+      <img src={props.img} className="w-100 h-100" />
       <div className="card-body">
         <h6 className="text-start">by {props.author}</h6>
 
@@ -23,7 +23,7 @@ function CoursesCard(props) {
           </div>
         </div>
         <hr className="text-warning" />
-        <p className="d-flex justify-content-evenly ">
+        <div className="d-flex justify-content-evenly ">
           <div>
             <s className="me-2">{props.iprice}</s>
             <span className="text-success fw-bolder me-3">{props.fprice}</span>
@@ -31,7 +31,7 @@ function CoursesCard(props) {
           <a className="text-end" href="/loginpage">
             View More
           </a>
-        </p>
+        </div>
       </div>
     </div>
   );

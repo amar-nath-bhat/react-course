@@ -33,6 +33,36 @@ function Courses() {
       iprice: "$20.00",
       fprice: "$15.99",
     },
+    {
+      tag: "Engineering",
+      img: "src/assets/art.png",
+      author: "Ashok Sharma",
+      coursename: "Computer Science Engineering",
+      duration: "3 Months",
+      students: "150",
+      iprice: "$59.99",
+      fprice: "$49.99",
+    },
+    {
+      tag: "Data Science",
+      img: "src/assets/art.png",
+      author: "Vishal Singh",
+      coursename: "Data Science - Crash Course",
+      duration: "20 Hours",
+      students: "190",
+      iprice: "$39.99",
+      fprice: "$29.99",
+    },
+    {
+      tag: "Development",
+      img: "src/assets/art.png",
+      author: "Vidya D.",
+      coursename: "Introduction to Web Development",
+      duration: "1 Month",
+      students: "120",
+      iprice: "$20.00",
+      fprice: "$15.99",
+    },
   ];
   return (
     <div className="d-flex flex-column gap-3">
